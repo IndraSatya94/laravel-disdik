@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/','PagesController@home');
-Route::get('/berita','PagesController@berita');
+Route::get('/berita','DisdiksController@index');
 
 //bidang paud
 Route::get('/izinpembelajaranpaud','PagesController@izinpembelajaranpaud');

@@ -43,6 +43,11 @@
           </div>
 
           <div class="entry-content">
+          @foreach ($disdiks as $dis)
+
+            {{$dis->namaizin}}
+            {{$dis->isi}}
+          @endforeach
             <p>
               Bolmong,- Pemerintah Kabupaten Bolaang Mongondow (Bolmong) Dinas Pendidikan akan segera menindaklanjuti Surat Edaran (SE) Menteri Pendidikan dan Kebudayaan (Mendikbud) Republik Indonesia.
 
